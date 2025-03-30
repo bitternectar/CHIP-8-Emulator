@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "/opt/homebrew/include/SDL2/SDL.h"
+#include "sdl.h"
 #include "instructions.h"
 #include "constants.h"
 #include "chip8.h"

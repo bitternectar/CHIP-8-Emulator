@@ -15,6 +15,7 @@ add_executable(CHIP_8 main.c
         constants.h
         instructions.c
         chip8.h
-        chip8.c)
+        chip8.c
+        sdl.h)
 # Связать исполняемый файл с библиотекой SDL2
 target_link_libraries(CHIP_8 ${SDL2_LIBRARIES})
